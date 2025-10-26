@@ -5,10 +5,48 @@
 }
 body{
     background-color: #98C1D9;
-}
-.game{
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
+.noto-serif-headingfont {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    font-size: 4rem;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 0.8rem;
+    background-color: rgb(25, 76, 93);
+    height: 25rem;
+    width: 25rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+.cell{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    
+}
 
