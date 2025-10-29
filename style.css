@@ -29,8 +29,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh;
-    font-size: 4rem;
+    height: 10vh;
+    font-size: 3rem;
+    padding-bottom: 1rem;
     
 }
 
@@ -40,8 +41,8 @@ body{
     grid-template-rows: repeat(3,1fr);
     gap: 0.5rem;
     background-color: transparent;
-    height: 60vh;
-    width: 60vh;
+    height: 50vh;
+    width: 50vh;
     border: none;
     border-radius: 1rem;
 }
@@ -76,3 +77,9 @@ body{
     background-color: #451ea0;
 }
 
+.baloo-2-font {
+  font-family: "Baloo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
