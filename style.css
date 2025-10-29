@@ -4,7 +4,7 @@
     
 }
 body{
-    background-color: #98C1D9;
+    background: linear-gradient(135deg,#84ffc9,#aab2ff,#eca0ff);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,12 @@ body{
   font-variation-settings:
     "wdth" 100;
 }
-
+.game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .heading{
     display: flex;
     justify-content: center;
@@ -33,21 +38,41 @@ body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
-    gap: 0.8rem;
-    background-color: rgb(25, 76, 93);
-    height: 25rem;
-    width: 25rem;
-    padding: 0.5rem;
-    border: 1px solid black;
+    gap: 0.5rem;
+    background-color: transparent;
+    height: 60vh;
+    width: 60vh;
+    border: none;
     border-radius: 1rem;
 }
 .cell{
     background-color: aliceblue;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 0 2rem rgba(0,0,0,0.1);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 3rem;
     cursor:pointer;
+    color: rgb(235, 18, 18);
     
+}
+.reset-btn{
+    margin: 1rem;
+    padding: 0.5rem;
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 2rem;
+    background-color: #7155c7;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    box-shadow: 0 0 2rem rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.reset-btn:hover{
+    background-color: #451ea0;
 }
 
