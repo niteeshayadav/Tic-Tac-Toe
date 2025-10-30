@@ -26,9 +26,9 @@ Play with your friends, track turns, and celebrate your victory with colorful co
 ---
 
 ## 📂 Project Structure  
-├── index.html # Game layout and structure
-├── style.css # Styling and responsiveness
-├── app.js # Game logic and confetti animation
+-├── index.html # Game layout and structure
+-├── style.css # Styling and responsiveness
+-├── app.js # Game logic and confetti animation
 
 
 
@@ -66,27 +66,26 @@ Play with your friends, track turns, and celebrate your victory with colorful co
 ---
 
 ## 🌐 Live Demo  
-
-If you have deployed the project on GitHub Pages:  
+ 
 👉 [Play Now](https://niteeshayadav.github.io/Tic-Tac-Toe/)  
 
 
 ## 💻 Setup Instructions  
 
 1. **Clone the repository**
-   https://github.com/niteeshayadav/Tic-Tac-Toe.git
+   - https://github.com/niteeshayadav/Tic-Tac-Toe.git
 
 2. **Navigate to the project folder**
-    cd tic-tac-toe
+   - cd tic-tac-toe
    
-4. **Open index.html in your browser and start playing!**
+3. **Open index.html in your browser and start playing!**
 
 
 ## 🧑‍💻 Author
 
 **Niteesha Yadav Panchadarla**
-🎓 B.Tech in Information Technology, Andhra University College of Engineering
-💡 Passionate about Full Stack Development and Interactive Web Apps
+-🎓 B.Tech in Information Technology, Andhra University College of Engineering
+-💡 Passionate about Full Stack Development and Interactive Web Apps
 
-##
+---
 **⭐ If you like this project, don’t forget to give it a star on GitHub!**
