@@ -71,10 +71,13 @@ Tic-Tac-Toe/
 
 ---
 
+---
+
 ## 🌐 Live Demo  
  
 👉 [Play Now](https://niteeshayadav.github.io/Tic-Tac-Toe/)  
 
+---
 
 ## 💻 Setup Instructions  
 
@@ -86,6 +89,7 @@ Tic-Tac-Toe/
    
 3. **Open index.html in your browser and start playing!**
 
+---
 
 ## 🧑‍💻 Author
 
@@ -94,4 +98,5 @@ Tic-Tac-Toe/
 💡 Passionate about Full Stack Development and Interactive Web Apps
 
 ---
+
 **⭐ If you like this project, don’t forget to give it a star on GitHub!**
