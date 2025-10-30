@@ -101,6 +101,7 @@ const checkWinner = () => {
     });
     if(isallFilled){
         message.innerText="It's A Draw !";
+        playerTurn.innerText="";
         disableCells();
     }
 };
