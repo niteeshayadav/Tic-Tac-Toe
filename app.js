@@ -52,12 +52,14 @@ cells.forEach(cell => {
 
         if(turnX){
           cell.innerText="X";
+          cell.style.color="rgb(235, 18, 18)";
           turnX=false;
           playerTurn.innerText="Player O Turn";
 
        }
        else{
           cell.innerText="O";
+          cell.style.color="black";
           turnX=true;
           playerTurn.innerText="Player X Turn";
        }
