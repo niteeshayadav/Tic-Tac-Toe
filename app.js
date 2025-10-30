@@ -10,8 +10,8 @@ message.style.fontFamily = "baloo-2-font,cursive";
 Game.append(message);
 
 let playerTurn=document.createElement("p");
-playerTurn.style.color="rgb(235, 18, 18)";
 playerTurn.style.fontSize="2rem";
+playerTurn.style.color="rgb(235, 18, 18)";
 playerTurn.style.fontFamily= "baloo-2-font,cursive";
 playerTurn.style.marginTop="0rem";
 playerTurn.style.marginBottom="1.5rem";
@@ -55,6 +55,7 @@ cells.forEach(cell => {
           cell.style.color="rgb(235, 18, 18)";
           turnX=false;
           playerTurn.innerText="Player O Turn";
+          playerTurn.style.color="black";
 
        }
        else{
@@ -62,6 +63,7 @@ cells.forEach(cell => {
           cell.style.color="black";
           turnX=true;
           playerTurn.innerText="Player X Turn";
+          playerTurn.style.color="rgb(235, 18, 18)";
        }
 
        checkWinner();
@@ -115,6 +117,7 @@ resetBtn.onclick = () => {
     message.innerText="";
     turnX=true;
     playerTurn.innerText="Player X Turn";
+    playerTurn.style.color="rgb(235, 18, 18)";
 };
 
 const disableCells = () => {
