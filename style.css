@@ -83,3 +83,10 @@ body{
   font-weight: 600;
   font-style: normal;
 }
+
+@media (max-width:320px) {
+    .container{
+        height: 40vh;
+        width: 40vh;
+    }
+}
